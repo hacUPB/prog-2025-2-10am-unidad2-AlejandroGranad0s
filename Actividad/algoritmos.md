@@ -32,7 +32,7 @@ Inicio
 Leer N1, N2, N3, N4, N5, N6
 Promedio = N1+N2+N3+N4+N5+N6 / 6
 Total = ((Promedio * 0.7) - 3.0 )/ 0.3
-Escribir Nota minima para aprobar
+Escribir Total
 FIn
  ``` 
 <img width="413" height="600" alt="image" src="https://github.com/user-attachments/assets/1d5892ec-1229-4f54-b72e-173cee262955" />
