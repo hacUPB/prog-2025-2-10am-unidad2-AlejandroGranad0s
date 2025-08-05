@@ -64,6 +64,62 @@ Fin
  ```
 <img width="713" height="773" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/0b295b01-8c76-4731-b6e5-1107c52fc886" />
 
+## Actividad
+
+Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|total_compra|Entrada|valor de la compra|
+|Descuento | Salida|descuento segun la compra|
+|precio_final| Salida| Valor a pagar|
+|15%, 8%, $250000| Constantes| Descuentos y valor limite|
+
+```
+Inicio
+Leer total_compra
+Si total_compra > 250000:
+  descuento = total_compra * 0.15
+Si no
+  descuento = total_compra * 0.8
+Fin si
+Precio_final = total_compra - descuento
+Escribir "El valor total es: ", precio_final
+Fin
+ ```
+
+## Actividad
+
+El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|alumnos|Entrada|valor de la compra|
+|costo_alumnos | Salida|descuento segun la compra|
+|costo_total| Salida| Valor a pagar|
+|100,$65,50-99,$70,30-49,$95,1-30,$4000| Constantes| Datos|
+
+```
+Inicio
+Leer alumnos
+Si alumnos >= 100:
+  costo_alumnos = $65
+Si no
+  Si alumnos >= 50
+    costo_alumnos = $70
+  Si no
+     Si alumnos >= 30
+       costo_alumnos = $95
+     Si no
+       costo_total = $4000
+       costo_alumno = costo_total/alumnos
+     Fin si
+  Fin si
+Fin si
+Escribir "El valor total es: ", costo_alumnos
+Fin
+ ```
+
 
 ### Parte 1: Identificar Algoritmos
 
