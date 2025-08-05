@@ -27,6 +27,15 @@ FIn
 Curso se evalua con 7 notas, se conoce 6 notas y vale el 70% de la nota
 Calcular cuanto debe sacar en la evaluacion final para aprobar con 3.0
 
+```
+Inicio
+Leer N1, N2, N3, N4, N5, N6
+Promedio = N1+N2+N3+N4+N5+N6 / 6
+Total = ((Promedio * 0.7) - 3.0 )/ 0.3
+Escribir Nota minima para aprobar
+FIn
+ ``` 
+
 ^ proxima clase
 
 ### Parte 1: Identificar Algoritmos
