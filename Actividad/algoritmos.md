@@ -61,7 +61,8 @@ Fin si
 Precio = lapices * valor_unidad 
 Escribir "El valor total es: ", precio
 Fin
- ``` 
+ ```
+![text]()
 
 
 ### Parte 1: Identificar Algoritmos
