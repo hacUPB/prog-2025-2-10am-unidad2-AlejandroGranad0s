@@ -62,7 +62,7 @@ Precio = lapices * valor_unidad
 Escribir "El valor total es: ", precio
 Fin
  ```
-![text]()
+<img width="713" height="773" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/0b295b01-8c76-4731-b6e5-1107c52fc886" />
 
 
 ### Parte 1: Identificar Algoritmos
