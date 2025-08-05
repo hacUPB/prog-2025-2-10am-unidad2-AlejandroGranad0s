@@ -35,6 +35,7 @@ Total = ((Promedio * 0.7) - 3.0 )/ 0.3
 Escribir Nota minima para aprobar
 FIn
  ``` 
+<img width="413" height="600" alt="image" src="https://github.com/user-attachments/assets/1d5892ec-1229-4f54-b72e-173cee262955" />
 
 ^ proxima clase
 
