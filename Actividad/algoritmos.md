@@ -37,7 +37,32 @@ FIn
  ``` 
 <img width="413" height="600" alt="image" src="https://github.com/user-attachments/assets/1d5892ec-1229-4f54-b72e-173cee262955" />
 
-^ proxima clase
+
+## Actividad
+
+Realizar un algoritmo para determinar cuanto se debe pagar por equis cantidad de lapices considerando que si son 1000 o mas el costo es de $85 
+cada uno. de lo contrario el precio es de $90. representar con el psudocodigo y el diagrama de flujo
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|lapices|Entrada|cantidad de lapices|
+|precio | Salida|precio total de lapices|
+|valor_unidad| Intermedia| Valor unitario de la caja|
+|85, 90| Constantes| No cambian|
+
+```
+Inicio
+Leer lapices
+Si lapices >= 1000:
+  valor_unidad = 85
+Si no
+  valor_unidad = 90
+Fin si
+Precio = lapices * valor_unidad 
+Escribir "El valor total es: ", precio
+Fin
+ ``` 
+
 
 ### Parte 1: Identificar Algoritmos
 
