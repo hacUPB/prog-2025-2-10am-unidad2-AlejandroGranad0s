@@ -172,6 +172,54 @@ Fin
 <img width="586" height="852" alt="tarea edad drawio" src="https://github.com/user-attachments/assets/e9fd8839-2435-4fbb-a1ee-27757ebc730b" />
 
 
+# Bucles
+## ejercicio 1
+
+Se requiere un algoritmo para determinar, de N cantidades, cuantas son cero, cuantas son menores a cero, y cuantas son mayores a cero.
+REalice el diagrama de flujo y el pseudo codigo 
+representarlo, utilizando el ciclo apropiado.
+
+```
+inicio
+leer N
+ceros = 0
+mayores = 0
+menores = 0
+Mientras N > 0:
+     Leer cant
+     Si cant > 0:
+         mayores = mayores + 1
+     Si no
+         Si cant = 0:
+              ceros = ceros + 1
+         Si no
+              menores = menores + 1
+         Fin si
+     Fin si
+     N = N - 1
+Fin Mientras
+Escribir ceros, mayores, menores
+Fin
+```
+
+## ejercicio 2
+
+hallar el factorial de un numero
+
+```
+inicio
+Leer N
+i = 1
+mientras N >= 0:
+     si N = 0:
+        i = i
+     si no
+         i = i*N
+         N = N - 1
+Fin mientras
+Escribir "el factorial es:", i
+Fin
+```
 
 ### Parte 1: Identificar Algoritmos
 
