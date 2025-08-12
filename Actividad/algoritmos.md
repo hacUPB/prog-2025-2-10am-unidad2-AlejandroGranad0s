@@ -119,6 +119,56 @@ Fin si
 Escribir "El valor total es: ", costo_alumnos
 Fin
  ```
+## Tarea
+calcular la edad segun el año de nacimiento y el actual
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|dia|Entrada|nacimiento|
+|mes|Entrada|nacimiento|
+|año|Entrada|nacimiento|
+|dia|Entrada|actual|
+|mes|Entrada|actual|
+|año|Entrada|actual|
+|edad actual| Salida|edad actual|
+
+
+```
+Inicio
+    // Solicitar datos de nacimiento
+    Escribir "Ingrese su día de nacimiento (Diaa):"
+    Leer Diaa
+    Escribir "Ingrese su mes de nacimiento (Mesa):"
+    Leer Mesa
+    Escribir "Ingrese su año de nacimiento (Añoa):"
+    Leer Añoa
+
+    // Solicitar fecha actual
+    Escribir "Ingrese el día actual (Diab):"
+    Leer Diab
+    Escribir "Ingrese el mes actual (Mesb):"
+    Leer Mesb
+    Escribir "Ingrese el año actual (Añob):"
+    Leer Añob
+
+    // Calcular edad básica
+    Edad-actual = Añob - Añoa
+
+    // Verificar si ya cumplió años este año
+    Si Mesa > Mesb Entonces
+        Edad-actual = Edad-actual - 1
+    Sino
+        Si Mesa == Mesb Entonces
+            Si Diaa > Diab Entonces
+                Edad-actual = Edad-actual - 1
+            FinSi
+        FinSi
+    FinSi
+
+    // Mostrar resultado
+    Escribir "La edad actual es:", Edad-actual
+Fin
+```
 
 
 ### Parte 1: Identificar Algoritmos
