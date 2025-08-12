@@ -210,7 +210,7 @@ hallar el factorial de un numero
 inicio
 Leer N
 i = 1
-mientras N >= 0:
+mientras N > 0:
      si N = 0:
         i = i
      si no
