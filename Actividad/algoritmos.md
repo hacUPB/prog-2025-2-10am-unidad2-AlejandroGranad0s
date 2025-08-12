@@ -169,6 +169,8 @@ Inicio
     Escribir "La edad actual es:", Edad-actual
 Fin
 ```
+<img width="586" height="852" alt="tarea edad drawio" src="https://github.com/user-attachments/assets/e9fd8839-2435-4fbb-a1ee-27757ebc730b" />
+
 
 
 ### Parte 1: Identificar Algoritmos
