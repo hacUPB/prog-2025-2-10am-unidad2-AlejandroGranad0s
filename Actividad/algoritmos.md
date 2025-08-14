@@ -249,6 +249,28 @@ Inicio
 Fin
 ```
 
+```
+Inicio
+    lista_altitudes = []
+    contador = 0
+    Mientras contador < 6 Hacer
+        Escribir "Ingrese la altitud de vuelo en metros:"
+        leer Altitud
+        lista_altitudes.Agregar(altitud)
+
+        contador = contador + 1
+
+    Fin Mientras
+
+    Escribir "Altitudes registradas:"
+    Para cada Altitud en lista_altitudes Hacer
+        Escribir altitud
+    Fin Para
+Fin
+```
+
+
+
 ### Parte 1: Identificar Algoritmos
 
 Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
