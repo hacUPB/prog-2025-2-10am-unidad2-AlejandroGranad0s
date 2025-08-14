@@ -221,6 +221,27 @@ Escribir "el factorial es:", i
 Fin
 ```
 
+## ejercicio 2
+
+tarjeta de credito
+
+```
+Inicio
+    tasa_interes = 0.02 
+    valor_compra = 0
+    numero_cuotas = 0
+    cuota = 0
+
+    Leer valor_compra
+
+    Leer numero_cuotas
+
+    cuota = (valor_compra * (1 + tasa_interes)) / numero_cuotas
+
+    Escribir "El valor de cada cuota es: ", cuota
+Fin
+```
+
 ### Parte 1: Identificar Algoritmos
 
 Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
