@@ -225,12 +225,12 @@ Fin
 
 tarjeta de credito
 
-|variables|tipo|comentario|
-|---------|----|----------|
-|valor_compra|Entrada|cantidad de lapices|
-|numero_cuotas| Entrada|precio total de lapices|
-|cuota|  Salida| Valor unitario de la caja|
-|tasa_interes| Constantes| No cambian|
+|variables|tipo|
+|---------|----|
+|valor_compra|Entrada|
+|numero_cuotas|
+|cuota|  Salida|
+|tasa_interes| Constantes|
 
 ```
 Inicio
