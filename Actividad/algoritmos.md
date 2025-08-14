@@ -249,21 +249,25 @@ Inicio
 Fin
 ```
 
+|variables|tipo|comentario|
+|---------|----|----------|
+|Altitud|Entrada|Altitudes ingresadas|
+|Contador|Salida|nacimiento|
+|Lista|Salida|Altitudes registradas|
+
 ```
 Inicio
     contador = 0
-    Mientras contador < 6 Hacer
-        Escribir "Ingrese la altitud de vuelo en metros:"
-        leer Altitud
-        Desde i = 0 hasta i = 6
-          leer dato
-          Lista[i] = dato
-        contador = contador + 1
+    Mientras contador < 6 :
+          Escribir "Ingrese la altitud de vuelo en metros:"
+          leer Altitud
+          Lista[contador] = Altitud
+          contador = contador + 1
     Fin Mientras
-     Escribir "Altitudes registradas:"
-     Desde i = 0 hasta i = 6
-         Escribir dato
-         Lista[i] = dato
+    Desde contador = 0 hasta contador = 6
+         Escribir "Altitudes registradas:"
+         Escribir Lista[contador]
+    Fin Desde
 Fin
 ```
 
