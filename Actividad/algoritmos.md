@@ -251,21 +251,19 @@ Fin
 
 ```
 Inicio
-    lista_altitudes = []
     contador = 0
     Mientras contador < 6 Hacer
         Escribir "Ingrese la altitud de vuelo en metros:"
         leer Altitud
-        lista_altitudes.Agregar(altitud)
-
+        Desde i = 0 hasta i = 6
+          leer dato
+          Lista[i] = dato
         contador = contador + 1
-
     Fin Mientras
-
-    Escribir "Altitudes registradas:"
-    Para cada Altitud en lista_altitudes Hacer
-        Escribir altitud
-    Fin Para
+     Escribir "Altitudes registradas:"
+     Desde i = 0 hasta i = 6
+         Escribir dato
+         Lista[i] = dato
 Fin
 ```
 
