@@ -228,8 +228,8 @@ tarjeta de credito
 |variables|tipo|
 |---------|----|
 |valor_compra|Entrada|
-|numero_cuotas|
-|cuota|  Salida|
+|numero_cuotas|Entrada|
+|cuota|Salida|
 |tasa_interes| Constantes|
 
 ```
