@@ -221,9 +221,16 @@ Escribir "el factorial es:", i
 Fin
 ```
 
-## ejercicio 2
+## tarea 1
 
 tarjeta de credito
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|valor_compra|Entrada|cantidad de lapices|
+|numero_cuotas| Entrada|precio total de lapices|
+|cuota|  Salida| Valor unitario de la caja|
+|tasa_interes| Constantes| No cambian|
 
 ```
 Inicio
